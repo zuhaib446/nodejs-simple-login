@@ -2,7 +2,7 @@
 This is a login tutorial for people who want to learn how to do a login for nodejs
 
 Make sure to have mongodb running. Open extra terminal to run node.
-mongod
+<br>mongod
 
 ```js
 git clone https://github.com/JasonDeving/nodejs-simple-login.git
