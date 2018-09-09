@@ -4,6 +4,7 @@ var express = require('express'),
     passport = require("passport"),
     bodyParser = require("body-parser"),
     User = require("./models/user"),
+    ejs= require('ejs'),
     LocalStrategy = require("passport-local"),
     passportLocalMongoose = require("passport-local-mongoose");
 
@@ -77,6 +78,6 @@ function isLoggedIn(req,res,next) {
 }
 
 
-app.listen(process.env.PORT, process.env.IP, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(8482, function () {
+  console.log('Example app listening on port 8482!');
 });
